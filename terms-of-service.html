@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service · Kullanım Şartları — Lucky Slots</title>
+    <style>
+        :root {
+            --bg: #0a0814;
+            --card: #1a1428;
+            --purple-border: #3a2f52;
+            --gold: #ffd700;
+            --text-light: #f0eef7;
+            --text-dim: #a89ec2;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(ellipse at top, #1a0f3c 0%, #0a0814 60%);
+            color: var(--text-light);
+            font-family: 'Segoe UI', 'Nunito', Arial, sans-serif;
+            line-height: 1.65;
+        }
+
+        .wrap {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 28px 20px 60px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        header h1 {
+            color: var(--gold);
+            font-size: 1.6rem;
+            margin: 0 0 6px;
+        }
+
+        header p {
+            color: var(--text-dim);
+            font-size: 0.88rem;
+            margin: 0;
+        }
+
+        .lang-switch {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin: 20px 0 28px;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 8, 20, 0.92);
+            backdrop-filter: blur(6px);
+            padding: 10px 8px;
+            border-radius: 14px;
+            z-index: 10;
+        }
+
+        .lang-btn {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid var(--purple-border);
+            color: var(--text-light);
+            border-radius: 30px;
+            padding: 7px 14px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        .lang-btn.active {
+            background: rgba(255, 215, 0, 0.14);
+            border-color: var(--gold);
+            color: var(--gold);
+        }
+
+        .lang-content {
+            display: none;
+        }
+
+        .lang-content.active {
+            display: block;
+        }
+
+        section {
+            background: var(--card);
+            border: 1px solid var(--purple-border);
+            border-radius: 14px;
+            padding: 18px 20px;
+            margin-bottom: 14px;
+        }
+
+        h2 {
+            color: var(--gold);
+            font-size: 1.08rem;
+            margin: 0 0 10px;
+        }
+
+        h3 {
+            color: #c9a0ff;
+            font-size: 0.96rem;
+            margin: 14px 0 6px;
+        }
+
+        p {
+            margin: 0 0 10px;
+            color: var(--text-light);
+            font-size: 0.92rem;
+        }
+
+        ul {
+            margin: 0 0 10px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+            font-size: 0.92rem;
+        }
+
+        a {
+            color: #8fb8ff;
+        }
+
+        strong {
+            color: var(--gold);
+        }
+
+        .updated {
+            color: var(--text-dim);
+            font-size: 0.8rem;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 16px;
+            color: var(--text-dim);
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+
+        .highlight-box {
+            background: rgba(255, 71, 87, 0.08);
+            border: 1px solid rgba(255, 71, 87, 0.3);
+            border-radius: 12px;
+            padding: 14px 16px;
+            margin-bottom: 10px;
+        }
+
+        .highlight-box p {
+            color: #ff9090;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+
+        <a href="index.html" class="back-link">← Lucky Slots</a>
+
+        <header>
+            <h1>🎰 Lucky Slots</h1>
+            <p>Terms of Service · Kullanım Şartları · Términos de Servicio · Nutzungsbedingungen · Termos de Uso ·
+                Conditions d'Utilisation</p>
+        </header>
+
+        <div class="lang-switch" id="langSwitch">
+            <button class="lang-btn active" data-lang="tr" onclick="switchLang('tr')">🇹🇷 Türkçe</button>
+            <button class="lang-btn" data-lang="en" onclick="switchLang('en')">🇬🇧 English</button>
+            <button class="lang-btn" data-lang="es" onclick="switchLang('es')">🇪🇸 Español</button>
+            <button class="lang-btn" data-lang="de" onclick="switchLang('de')">🇩🇪 Deutsch</button>
+            <button class="lang-btn" data-lang="pt-BR" onclick="switchLang('pt-BR')">🇧🇷 Português</button>
+            <button class="lang-btn" data-lang="fr" onclick="switchLang('fr')">🇫🇷 Français</button>
+        </div>
+
+        <!-- ============================= TÜRKÇE ============================= -->
+        <div class="lang-content active" data-lang="tr">
+            <section>
+                <h2>1. Kabul Beyanı</h2>
+                <p><strong>Lucky Slots</strong> ("Uygulama") uygulamasını indirerek, yükleyerek veya kullanarak, bu
+                    Kullanım Şartları'nı ("Şartlar") okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan edersiniz. Bu
+                    Şartları kabul etmiyorsanız, lütfen Uygulamayı kullanmayınız.</p>
+                <p><strong>Geliştirici:</strong> Hexlume Games<br>
+                    <strong>İletişim:</strong> <a href="mailto:hexlume.games@gmail.com">hexlume.games@gmail.com</a>
+                </p>
+            </section>
+
+            <div class="highlight-box">
+                <p>⚠️ <strong>Önemli:</strong> Lucky Slots tamamen eğlence amaçlı bir uygulamadır. Uygulama içindeki
+                    jetonların hiçbir gerçek parasal değeri yoktur, gerçek parayla satın alınamaz veya gerçek
+                    paraya/ödüle çevrilemez. Uygulama gerçek kumar içermez ve gerçek kumar oynamayı teşvik etmez.</p>
+            </div>
+
+            <section>
+                <h2>2. Uygulamanın Niteliği</h2>
+                <p>Lucky Slots, sanal jetonlarla oynanan simüle bir slot makinesi oyunudur ("sosyal kazino" türü). Oyun
+                    içindeki tüm kazançlar, bakiyeler ve ödüller yalnızca sanaldır, oyun deneyimini geliştirmek amacıyla
+                    var olur ve gerçek dünyada hiçbir maddi değeri yoktur.</p>
+            </section>
+
+            <section>
+                <h2>3. Kullanım Uygunluğu</h2>
+                <ul>
+                    <li>Uygulama, bulunduğunuz yargı bölgesinde geçerli asgari yaş şartlarına uygun olarak
+                        kullanılmalıdır.</li>
+                    <li>Uygulamayı kullanarak, Uygulamayı yasal ve kişisel, ticari olmayan amaçlarla kullanacağınızı
+                        kabul edersiniz.</li>
+                    <li>Uygulama, gerçek para veya değerli varlıklarla bahis oynanan bir kumar hizmeti değildir ve bu
+                        şekilde kullanılamaz.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. Sanal Jetonlar ve Uygulama İçi Ekonomiler</h2>
+                <ul>
+                    <li>Uygulama içindeki jetonlar ("sanal para") yalnızca oyun deneyimi içinde kullanılabilir, gerçek
+                        para karşılığında satın alınamaz, satılamaz, transfer edilemez veya nakde çevrilemez.</li>
+                    <li>Jetonlar; oyunu oynayarak, günlük bonus talep ederek veya isteğe bağlı reklam izleyerek
+                        kazanılabilir.</li>
+                    <li>Jeton bakiyeniz üzerinde herhangi bir mülkiyet hakkınız yoktur; bakiyeniz yalnızca cihazınızda
+                        yerel olarak saklanır ve Uygulamayı kaldırmanız veya bakiyenizi sıfırlamanız durumunda kalıcı
+                        olarak kaybolabilir.</li>
+                    <li>Geliştirici, önceden bildirimde bulunmaksızın jeton ekonomisini, ödül miktarlarını veya kazanma
+                        oranlarını değiştirme hakkını saklı tutar.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>5. Reklamlar</h2>
+                <p>Uygulama, Google AdMob aracılığıyla geçiş (interstitial) ve isteğe bağlı ödüllü (rewarded) reklamlar
+                    gösterir. Ödüllü reklamları izlemek tamamen isteğe bağlıdır ve ek jeton kazanmanızı sağlar. Reklam
+                    içeriği üçüncü taraf reklamverenler tarafından sağlanır; Geliştirici, reklam içeriğinin
+                    doğruluğundan veya uygunluğundan sorumlu değildir.</p>
+            </section>
+
+            <section>
+                <h2>6. Fikri Mülkiyet</h2>
+                <p>Uygulama içindeki tüm grafikler, sesler, metinler, kod ve tasarım öğeleri Hexlume Games'e aittir veya
+                    Hexlume Games tarafından lisanslanmıştır ve telif hakkı, marka ve diğer fikri mülkiyet yasalarıyla
+                    korunmaktadır. Uygulamayı kopyalayamaz, değiştiremez, tersine mühendislik yapamaz, dağıtamaz veya
+                    türev çalışmalar oluşturamazsınız.</p>
+            </section>
+
+            <section>
+                <h2>7. Yasak Davranışlar</h2>
+                <p>Uygulamayı kullanırken aşağıdakileri yapmamayı kabul edersiniz:</p>
+                <ul>
+                    <li>Uygulamanın normal işleyişini bozacak veya aşırı yükleyecek herhangi bir eylemde bulunmak (bot,
+                        otomasyon aracı vb. kullanmak).</li>
+                    <li>Uygulamanın güvenlik önlemlerini aşmaya veya kaynak koduna erişmeye çalışmak.</li>
+                    <li>Uygulamayı yasa dışı bir amaç için kullanmak veya Uygulamayı gerçek kumar hizmeti gibi
+                        tanıtmak/pazarlamak.</li>
+                    <li>Diğer kullanıcıları rahatsız edecek, aldatacak veya zarar verecek şekilde davranmak (paylaşım
+                        özelliği dahil).</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>8. Sorumluluk Reddi</h2>
+                <p>Uygulama "olduğu gibi" ve "mevcut olduğu şekliyle" sunulmaktadır. Geliştirici, Uygulamanın
+                    kesintisiz, hatasız veya güvenli olacağına dair hiçbir garanti vermez. Uygulamanın kullanımından
+                    doğabilecek doğrudan veya dolaylı zararlardan Geliştirici sorumlu tutulamaz. Uygulama tamamen
+                    eğlence amaçlıdır; herhangi bir finansal karar veya beklenti Uygulama ile ilişkilendirilmemelidir.
+                </p>
+            </section>
+
+            <section>
+                <h2>9. Sorumluluğun Sınırlandırılması</h2>
+                <p>Yürürlükteki yasaların izin verdiği azami ölçüde, Hexlume Games; Uygulamanın kullanımından veya
+                    kullanılamamasından kaynaklanan hiçbir özel, arızi, dolaylı veya sonuç niteliğindeki zarardan
+                    sorumlu tutulamaz.</p>
+            </section>
+
+            <section>
+                <h2>10. Değişiklikler ve Sonlandırma</h2>
+                <p>Geliştirici, Uygulamayı veya bu Şartları önceden bildirimde bulunmaksızın değiştirme, güncelleme,
+                    askıya alma veya sonlandırma hakkını saklı tutar. Şartlardaki önemli değişiklikler bu sayfada
+                    yayınlanacaktır. Uygulamayı kullanmaya devam etmeniz, güncellenmiş Şartları kabul ettiğiniz anlamına
+                    gelir.</p>
+            </section>
+
+            <section>
+                <h2>11. Gizlilik</h2>
+                <p>Kişisel verilerinizin nasıl işlendiği hakkında bilgi için lütfen <a
+                        href="privacy-policy.html">Gizlilik Politikamızı</a> inceleyiniz.</p>
+            </section>
+
+            <section>
+                <h2>12. Geçerli Hukuk</h2>
+                <p>Bu Şartlar, Geliştiricinin faaliyet gösterdiği yargı bölgesinin yasalarına tabidir ve bu yasalara
+                    göre yorumlanır; tabi olduğunuz yerel tüketici koruma yasalarındaki zorunlu haklarınız saklıdır.</p>
+            </section>
+
+            <section>
+                <h2>13. Bize Ulaşın</h2>
+                <p>Bu Kullanım Şartları ile ilgili sorularınız için: <a
+                        href="mailto:hexlume.games@gmail.com">hexlume.games@gmail.com</a></p>
+            </section>
+        </div>
+
+        <!-- ============================= ENGLISH ============================= -->
+        <div class="lang-content" data-lang="en">
+            <section>
+                <h2>1. Acceptance of Terms</h2>
+                <p>By downloading, installing, or using <strong>Lucky Slots</strong> ("the App"), you acknowledge that
+                    you have read, understood, and agree to these Terms of Service ("Terms"). If you do not agree to
+                    these Terms, please do not use the App.</p>
+                <p><strong>Developer:</strong> Hexlume Games<br>
+                    <strong>Contact:</strong> <a href="mailto:hexlume.games@gmail.com">hexlume.games@gmail.com</a>
+                </p>
+            </section>
+
+            <div class="highlight-box">
+                <p>⚠️ <strong>Important:</strong> Lucky Slots is purely for entertainment purposes. Coins within the app
+                    have no real monetary value, cannot be purchased with real money, and cannot be exchanged for real
+                    money or prizes. The app does not involve real gambling and does not promote real-money wagering.
+                </p>
+            </div>
+
+            <section>
+                <h2>2. Nature of the App</h2>
+                <p>Lucky Slots is a simulated slot machine game played with virtual coins (a "social casino" style app).
+                    All winnings, balances, and rewards within the game are purely virtual, exist solely to enhance the
+                    game experience, and have no real-world monetary value.</p>
+            </section>
+
+            <section>
+                <h2>3. Eligibility</h2>
+                <ul>
+                    <li>The App must be used in accordance with the minimum age requirements applicable in your
+                        jurisdiction.</li>
+                    <li>By using the App, you agree to use it for lawful, personal, non-commercial purposes only.</li>
+                    <li>The App is not a gambling service where real money or valuable assets are wagered, and must not
+                        be used as such.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. Virtual Coins and In-App Economy</h2>
+                <ul>
+                    <li>Coins ("virtual currency") within the app may only be used within the game experience and cannot
+                        be purchased with, sold for, transferred for, or exchanged for real money.</li>
+                    <li>Coins can be earned by playing the game, claiming the daily bonus, or optionally watching ads.
+                    </li>
+                    <li>You have no ownership right over your coin balance; your balance is stored locally on your
+                        device only and may be permanently lost if you uninstall the App or reset your balance.</li>
+                    <li>The Developer reserves the right to modify the coin economy, reward amounts, or win rates at any
+                        time without prior notice.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>5. Advertising</h2>
+                <p>The App displays interstitial and optional rewarded ads via Google AdMob. Watching rewarded ads is
+                    entirely optional and grants you additional coins. Ad content is provided by third-party
+                    advertisers; the Developer is not responsible for the accuracy or appropriateness of ad content.</p>
+            </section>
+
+            <section>
+                <h2>6. Intellectual Property</h2>
+                <p>All graphics, sounds, text, code, and design elements within the App are owned by or licensed to
+                    Hexlume Games and are protected by copyright, trademark, and other intellectual property laws. You
+                    may not copy, modify, reverse-engineer, distribute, or create derivative works from the App.</p>
+            </section>
+
+            <section>
+                <h2>7. Prohibited Conduct</h2>
+                <p>When using the App, you agree not to:</p>
+                <ul>
+                    <li>Engage in any action that disrupts or overloads the App's normal operation (including the use of
+                        bots or automation tools).</li>
+                    <li>Attempt to bypass the App's security measures or access its source code.</li>
+                    <li>Use the App for any unlawful purpose, or represent or market the App as a real-money gambling
+                        service.</li>
+                    <li>Behave in a way that harasses, deceives, or harms other users (including via the sharing
+                        feature).</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>8. Disclaimer of Warranties</h2>
+                <p>The App is provided "as is" and "as available." The Developer makes no warranty that the App will be
+                    uninterrupted, error-free, or secure. The Developer shall not be held liable for any direct or
+                    indirect damages arising from the use of the App. The App is purely for entertainment; no financial
+                    decision or expectation should be associated with it.</p>
+            </section>
+
+            <section>
+                <h2>9. Limitation of Liability</h2>
+                <p>To the maximum extent permitted by applicable law, Hexlume Games shall not be liable for any special,
+                    incidental, indirect, or consequential damages arising from the use or inability to use the App.</p>
+            </section>
+
+            <section>
+                <h2>10. Changes and Termination</h2>
+                <p>The Developer reserves the right to modify, update, suspend, or discontinue the App or these Terms at
+                    any time without prior notice. Significant changes to the Terms will be posted on this page.
+                    Continued use of the App constitutes acceptance of the updated Terms.</p>
+            </section>
+
+            <section>
+                <h2>11. Privacy</h2>
+                <p>For information on how your personal data is handled, please review our <a
+                        href="privacy-policy.html">Privacy Policy</a>.</p>
+            </section>
+
+            <section>
+                <h2>12. Governing Law</h2>
+                <p>These Terms are governed by and construed in accordance with the laws of the jurisdiction in which
+                    the Developer operates, without prejudice to any mandatory rights you may have under your local
+                    consumer protection laws.</p>
+            </section>
+
+            <section>
+                <h2>13. Contact Us</h2>
+                <p>For questions about these Terms of Service: <a
+                        href="mailto:hexlume.games@gmail.com">hexlume.games@gmail.com</a></p>
+            </section>
+        </div>
+
+        <!-- ============================= ESPAÑOL ============================= -->
+        <div class="lang-content" data-lang="es">
+            <section>
+                <h2>1. Aceptación de los Términos</h2>
+                <p>Al descargar, instalar o usar <strong>Lucky Slots</strong> ("la Aplicación"), reconoces que has
+                    leído, entendido y aceptas estos Términos de Servicio ("Términos"). Si no estás de acuerdo con estos
+                    Términos, no uses la Aplicación.</p>
+                <p><strong>Desarrollador:</strong> Hexlume Games<br>
+                    <strong>Contacto:</strong> <a href="mailto:hexlume.games@gmail.com">hexlume.games@gmail.com</a>
+                </p>
+            </section>
+
+            <div class="highlight-box">
+                <p>⚠️ <strong>Importante:</strong> Lucky Slots es una aplicación puramente de entretenimiento. Las
+                    monedas dentro de la app no tienen valor monetario real, no pueden comprarse con dinero real y no
+                    pueden canjearse por dinero real ni premios. La app no implica apuestas reales y no promueve el
+                    juego con dinero real.</p>
+            </div>
+
+            <section>
+                <h2>2. Naturaleza de la Aplicación</h2>
+                <p>Lucky Slots es un juego de máquina tragamonedas simulada que se juega con monedas virtuales (una app
+                    de "casino social"). Todas las ganancias, saldos y recompensas dentro del juego son puramente
+                    virtuales, existen únicamente para mejorar la experiencia de juego y no tienen ningún valor
+                    monetario en el mundo real.</p>
+            </section>
+
+            <section>
+                <h2>3. Elegibilidad</h2>
+                <ul>
+                    <li>La Aplicación debe utilizarse de acuerdo con los requisitos mínimos de edad aplicables en tu
+                        jurisdicción.</li>
+                    <li>Al usar la Aplicación, aceptas usarla únicamente con fines lícitos, personales y no comerciales.
+                    </li>
+                    <li>La Aplicación no es un servicio de apuestas donde se juega con dinero real o activos de valor, y
+                        no debe usarse como tal.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. Monedas Virtuales y Economía dentro de la Aplicación</h2>
+                <ul>
+                    <li>Las monedas ("moneda virtual") dentro de la app solo pueden usarse dentro de la experiencia del
+                        juego y no pueden comprarse, venderse, transferirse ni canjearse por dinero real.</li>
+                    <li>Las monedas se pueden ganar jugando, reclamando el bono diario o, opcionalmente, viendo
+                        anuncios.</li>
+                    <li>No tienes ningún derecho de propiedad sobre tu saldo de monedas; tu saldo se almacena solo
+                        localmente en tu dispositivo y puede perderse permanentemente si desinstalas la App o
+                        restableces tu saldo.</li>
+                    <li>El Desarrollador se reserva el derecho de modificar la economía de monedas, los montos de
+                        recompensa o las tasas de victoria en cualquier momento sin previo aviso.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>5. Publicidad</h2>
+                <p>La Aplicación muestra anuncios intersticiales y anuncios con recompensa opcionales a través de Google
+                    AdMob. Ver anuncios con recompensa es completamente opcional y te otorga monedas adicionales. El
+                    contenido publicitario es proporcionado por anunciantes externos; el Desarrollador no es responsable
+                    de la exactitud o idoneidad del contenido publicitario.</p>
+            </section>
+
+            <section>
+                <h2>6. Propiedad Intelectual</h2>
+                <p>Todos los gráficos, sonidos, textos, código y elementos de diseño dentro de la Aplicación son
+                    propiedad de Hexlume Games o están licenciados a Hexlume Games, y están protegidos por leyes de
+                    derechos de autor, marcas registradas y otras leyes de propiedad intelectual. No puedes copiar,
+                    modificar, aplicar ingeniería inversa, distribuir ni crear obras derivadas de la Aplicación.</p>
+            </section>
+
+            <section>
+                <h2>7. Conducta Prohibida</h2>
+                <p>Al usar la Aplicación, aceptas no:</p>
+                <ul>
+                    <li>Realizar ninguna acción que interrumpa o sobrecargue el funcionamiento normal de la App
+                        (incluido el uso de bots o herramientas de automatización).</li>
+                    <li>Intentar eludir las medidas de seguridad de la App o acceder a su código fuente.</li>
+                    <li>Usar la App con fines ilícitos, o presentar/comercializar la App como un servicio de apuestas
+                        con dinero real.</li>
+                    <li>Comportarte de una manera que acose, engañe o dañe a otros usuarios (incluso a través de la
+                        función de compartir).</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>8. Exención de Garantías</h2>
+                <p>La Aplicación se proporciona "tal cual" y "según disponibilidad". El Desarrollador no garantiza que
+                    la Aplicación será ininterrumpida, libre de errores o segura. El Desarrollador no será responsable
+                    de ningún daño directo o indirecto derivado del uso de la Aplicación. La Aplicación es puramente
+                    para entretenimiento; ninguna decisión o expectativa financiera debe asociarse con ella.</p>
+            </section>
+
+            <section>
+                <h2>9. Limitación de Responsabilidad</h2>
+                <p>En la máxima medida permitida por la ley aplicable, Hexlume Games no será responsable de ningún daño
+                    especial, incidental, indirecto o consecuente que surja del uso o la imposibilidad de uso de la
+                    Aplicación.</p>
+            </section>
+
+            <section>
+                <h2>10. Cambios y Terminación</h2>
+                <p>El Desarrollador se reserva el derecho de modificar, actualizar, suspender o discontinuar la
+                    Aplicación o estos Términos en cualquier momento sin previo aviso. Los cambios importantes a los
+                    Términos se publicarán en esta página. El uso continuado de la Aplicación constituye la aceptación
+                    de los Términos actualizados.</p>
+            </section>
+
+            <section>
+                <h2>11. Privacidad</h2>
+                <p>Para obtener información sobre cómo se gestionan tus datos personales, consulta nuestra <a
+                        href="privacy-policy.html">Política de Privacidad</a>.</p>
+            </section>
+
+            <section>
+                <h2>12. Ley Aplicable</h2>
+                <p>Estos Términos se rigen e interpretan de acuerdo con las leyes de la jurisdicción en la que opera el
+                    Desarrollador, sin perjuicio de los derechos obligatorios que puedas tener conforme a las leyes
+                    locales de protección al consumidor.</p>
+            </section>
+
+            <section>
+                <h2>13. Contáctanos</h2>
+                <p>Para preguntas sobre estos Términos de Servicio: <a
+                        href="mailto:hexlume.games@gmail.com">hexlume.games@gmail.com</a></p>
+            </section>
+        </div>
+
+        <!-- ============================= DEUTSCH ============================= -->
+        <div class="lang-content" data-lang="de">
+            <section>
+                <h2>1. Annahme der Bedingungen</h2>
+                <p>Durch das Herunterladen, Installieren oder Nutzen von <strong>Lucky Slots</strong> ("die App")
+                    bestätigst du, dass du diese Nutzungsbedingungen ("Bedingungen") gelesen, verstanden und akzeptiert
+                    hast. Wenn du diesen Bedingungen nicht zustimmst, nutze die App bitte nicht.</p>
+                <p><strong>Entwickler:</strong> Hexlume Games<br>
+                    <strong>Kontakt:</strong> <a href="mailto:hexlume.games@gmail.com">hexlume.games@gmail.com</a>
+                </p>
+            </section>
+
+            <div class="highlight-box">
+                <p>⚠️ <strong>Wichtig:</strong> Lucky Slots dient ausschließlich der Unterhaltung. Münzen innerhalb der
+                    App haben keinen echten Geldwert, können nicht mit echtem Geld gekauft und nicht in echtes Geld oder
+                    Preise umgetauscht werden. Die App beinhaltet kein echtes Glücksspiel und fördert kein Glücksspiel
+                    mit echtem Geld.</p>
+            </div>
+
+            <section>
+                <h2>2. Art der App</h2>
+                <p>Lucky Slots ist ein simuliertes Spielautomatenspiel, das mit virtuellen Münzen gespielt wird (eine
+                    App im "Social-Casino"-Stil). Alle Gewinne, Guthaben und Belohnungen innerhalb des Spiels sind rein
+                    virtuell, dienen ausschließlich der Verbesserung des Spielerlebnisses und haben keinen realen
+                    Geldwert.</p>
+            </section>
+
+            <section>
+                <h2>3. Nutzungsberechtigung</h2>
+                <ul>
+                    <li>Die App muss gemäß den in deiner Rechtsordnung geltenden Mindestaltersanforderungen genutzt
+                        werden.</li>
+                    <li>Durch die Nutzung der App erklärst du dich damit einverstanden, sie nur für rechtmäßige,
+                        persönliche, nicht-kommerzielle Zwecke zu nutzen.</li>
+                    <li>Die App ist kein Glücksspieldienst, bei dem mit echtem Geld oder wertvollen Vermögenswerten
+                        gewettet wird, und darf nicht als solcher genutzt werden.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. Virtuelle Münzen und In-App-Wirtschaft</h2>
+                <ul>
+                    <li>Münzen ("virtuelle Währung") innerhalb der App dürfen nur innerhalb des Spielerlebnisses
+                        verwendet werden und können nicht mit echtem Geld gekauft, verkauft, übertragen oder umgetauscht
+                        werden.</li>
+                    <li>Münzen können durch Spielen, Einlösen des täglichen Bonus oder optional durch das Ansehen von
+                        Werbung verdient werden.</li>
+                    <li>Du hast kein Eigentumsrecht an deinem Münzguthaben; dein Guthaben wird ausschließlich lokal auf
+                        deinem Gerät gespeichert und kann dauerhaft verloren gehen, wenn du die App deinstallierst oder
+                        dein Guthaben zurücksetzt.</li>
+                    <li>Der Entwickler behält sich das Recht vor, die Münzwirtschaft, Belohnungsbeträge oder Gewinnraten
+                        jederzeit ohne vorherige Ankündigung zu ändern.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>5. Werbung</h2>
+                <p>Die App zeigt Interstitial- und optionale Reward-Anzeigen über Google AdMob an. Das Ansehen von
+                    Reward-Anzeigen ist vollständig optional und gewährt dir zusätzliche Münzen. Werbeinhalte werden von
+                    Drittanbietern bereitgestellt; der Entwickler ist nicht verantwortlich für die Richtigkeit oder
+                    Angemessenheit der Werbeinhalte.</p>
+            </section>
+
+            <section>
+                <h2>6. Geistiges Eigentum</h2>
+                <p>Alle Grafiken, Sounds, Texte, Codes und Designelemente innerhalb der App sind Eigentum von Hexlume
+                    Games oder an Hexlume Games lizenziert und durch Urheberrecht, Markenrecht und andere Gesetze zum
+                    geistigen Eigentum geschützt. Du darfst die App nicht kopieren, verändern, zurückentwickeln,
+                    verbreiten oder daraus abgeleitete Werke erstellen.</p>
+            </section>
+
+            <section>
+                <h2>7. Verbotenes Verhalten</h2>
+                <p>Bei der Nutzung der App erklärst du dich damit einverstanden, Folgendes zu unterlassen:</p>
+                <ul>
+                    <li>Jegliche Handlung, die den normalen Betrieb der App stört oder überlastet (einschließlich der
+                        Nutzung von Bots oder Automatisierungstools).</li>
+                    <li>Der Versuch, die Sicherheitsmaßnahmen der App zu umgehen oder auf ihren Quellcode zuzugreifen.
+                    </li>
+                    <li>Die Nutzung der App für rechtswidrige Zwecke oder die Darstellung/Vermarktung der App als
+                        Echtgeld-Glücksspieldienst.</li>
+                    <li>Verhalten, das andere Nutzer belästigt, täuscht oder schädigt (auch über die Teilen-Funktion).
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>8. Gewährleistungsausschluss</h2>
+                <p>Die App wird "wie besehen" und "wie verfügbar" bereitgestellt. Der Entwickler übernimmt keine Gewähr
+                    dafür, dass die App unterbrechungsfrei, fehlerfrei oder sicher ist. Der Entwickler haftet nicht für
+                    direkte oder indirekte Schäden, die aus der Nutzung der App entstehen. Die App dient ausschließlich
+                    der Unterhaltung; es sollten keine finanziellen Entscheidungen oder Erwartungen damit verbunden
+                    werden.</p>
+            </section>
+
+            <section>
+                <h2>9. Haftungsbeschränkung</h2>
+                <p>Im gesetzlich maximal zulässigen Umfang haftet Hexlume Games nicht für besondere, beiläufige,
+                    indirekte oder Folgeschäden, die aus der Nutzung oder Nichtnutzbarkeit der App entstehen.</p>
+            </section>
+
+            <section>
+                <h2>10. Änderungen und Beendigung</h2>
+                <p>Der Entwickler behält sich das Recht vor, die App oder diese Bedingungen jederzeit ohne vorherige
+                    Ankündigung zu ändern, zu aktualisieren, auszusetzen oder einzustellen. Wesentliche Änderungen der
+                    Bedingungen werden auf dieser Seite veröffentlicht. Die fortgesetzte Nutzung der App stellt die
+                    Zustimmung zu den aktualisierten Bedingungen dar.</p>
+            </section>
+
+            <section>
+                <h2>11. Datenschutz</h2>
+                <p>Informationen darüber, wie deine persönlichen Daten verarbeitet werden, findest du in unserer <a
+                        href="privacy-policy.html">Datenschutzrichtlinie</a>.</p>
+            </section>
+
+            <section>
+                <h2>12. Anwendbares Recht</h2>
+                <p>Diese Bedingungen unterliegen den Gesetzen der Rechtsordnung, in der der Entwickler tätig ist, und
+                    werden entsprechend ausgelegt, unbeschadet zwingender Rechte, die dir nach den örtlichen
+                    Verbraucherschutzgesetzen zustehen.</p>
+            </section>
+
+            <section>
+                <h2>13. Kontaktiere Uns</h2>
+                <p>Bei Fragen zu diesen Nutzungsbedingungen: <a
+                        href="mailto:hexlume.games@gmail.com">hexlume.games@gmail.com</a></p>
+            </section>
+        </div>
+
+        <!-- ============================= PORTUGUÊS (BR) ============================= -->
+        <div class="lang-content" data-lang="pt-BR">
+            <section>
+                <h2>1. Aceitação dos Termos</h2>
+                <p>Ao baixar, instalar ou usar o <strong>Lucky Slots</strong> ("o App"), você reconhece que leu,
+                    entendeu e concorda com estes Termos de Uso ("Termos"). Se você não concorda com estes Termos, não
+                    use o App.</p>
+                <p><strong>Desenvolvedor:</strong> Hexlume Games<br>
+                    <strong>Contato:</strong> <a href="mailto:hexlume.games@gmail.com">hexlume.games@gmail.com</a>
+                </p>
+            </section>
+
+            <div class="highlight-box">
+                <p>⚠️ <strong>Importante:</strong> O Lucky Slots é um aplicativo puramente para entretenimento. As
+                    fichas dentro do app não têm valor monetário real, não podem ser compradas com dinheiro real e não
+                    podem ser trocadas por dinheiro real ou prêmios. O app não envolve apostas reais e não promove
+                    apostas com dinheiro real.</p>
+            </div>
+
+            <section>
+                <h2>2. Natureza do App</h2>
+                <p>Lucky Slots é um jogo de caça-níqueis simulado jogado com fichas virtuais (um app estilo "cassino
+                    social"). Todos os ganhos, saldos e recompensas dentro do jogo são puramente virtuais, existem
+                    apenas para melhorar a experiência de jogo e não têm nenhum valor monetário no mundo real.</p>
+            </section>
+
+            <section>
+                <h2>3. Elegibilidade</h2>
+                <ul>
+                    <li>O App deve ser usado de acordo com os requisitos mínimos de idade aplicáveis à sua jurisdição.
+                    </li>
+                    <li>Ao usar o App, você concorda em usá-lo apenas para fins lícitos, pessoais e não comerciais.</li>
+                    <li>O App não é um serviço de apostas onde dinheiro real ou ativos de valor são apostados, e não
+                        deve ser usado como tal.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. Fichas Virtuais e Economia dentro do App</h2>
+                <ul>
+                    <li>As fichas ("moeda virtual") dentro do app só podem ser usadas dentro da experiência de jogo e
+                        não podem ser compradas, vendidas, transferidas ou trocadas por dinheiro real.</li>
+                    <li>As fichas podem ser ganhas jogando, resgatando o bônus diário ou, opcionalmente, assistindo a
+                        anúncios.</li>
+                    <li>Você não tem nenhum direito de propriedade sobre seu saldo de fichas; seu saldo é armazenado
+                        apenas localmente no seu dispositivo e pode ser perdido permanentemente se você desinstalar o
+                        App ou redefinir seu saldo.</li>
+                    <li>O Desenvolvedor reserva-se o direito de modificar a economia de fichas, valores de recompensa ou
+                        taxas de vitória a qualquer momento, sem aviso prévio.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>5. Publicidade</h2>
+                <p>O App exibe anúncios intersticiais e anúncios recompensados opcionais via Google AdMob. Assistir a
+                    anúncios recompensados é totalmente opcional e concede fichas adicionais. O conteúdo dos anúncios é
+                    fornecido por anunciantes terceiros; o Desenvolvedor não é responsável pela precisão ou adequação do
+                    conteúdo publicitário.</p>
+            </section>
+
+            <section>
+                <h2>6. Propriedade Intelectual</h2>
+                <p>Todos os gráficos, sons, textos, código e elementos de design dentro do App são de propriedade da
+                    Hexlume Games ou licenciados a ela, e são protegidos por leis de direitos autorais, marcas
+                    registradas e outras leis de propriedade intelectual. Você não pode copiar, modificar, fazer
+                    engenharia reversa, distribuir ou criar obras derivadas do App.</p>
+            </section>
+
+            <section>
+                <h2>7. Conduta Proibida</h2>
+                <p>Ao usar o App, você concorda em não:</p>
+                <ul>
+                    <li>Realizar qualquer ação que interrompa ou sobrecarregue o funcionamento normal do App (incluindo
+                        o uso de bots ou ferramentas de automação).</li>
+                    <li>Tentar contornar as medidas de segurança do App ou acessar seu código-fonte.</li>
+                    <li>Usar o App para fins ilícitos, ou apresentar/comercializar o App como um serviço de apostas com
+                        dinheiro real.</li>
+                    <li>Comportar-se de forma a assediar, enganar ou prejudicar outros usuários (inclusive através do
+                        recurso de compartilhamento).</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>8. Isenção de Garantias</h2>
+                <p>O App é fornecido "como está" e "conforme disponível". O Desenvolvedor não garante que o App será
+                    ininterrupto, livre de erros ou seguro. O Desenvolvedor não será responsabilizado por quaisquer
+                    danos diretos ou indiretos decorrentes do uso do App. O App é puramente para entretenimento; nenhuma
+                    decisão ou expectativa financeira deve ser associada a ele.</p>
+            </section>
+
+            <section>
+                <h2>9. Limitação de Responsabilidade</h2>
+                <p>Na máxima extensão permitida pela lei aplicável, a Hexlume Games não será responsável por quaisquer
+                    danos especiais, incidentais, indiretos ou consequenciais decorrentes do uso ou da incapacidade de
+                    uso do App.</p>
+            </section>
+
+            <section>
+                <h2>10. Alterações e Rescisão</h2>
+                <p>O Desenvolvedor reserva-se o direito de modificar, atualizar, suspender ou descontinuar o App ou
+                    estes Termos a qualquer momento, sem aviso prévio. Alterações significativas nos Termos serão
+                    publicadas nesta página. O uso continuado do App constitui aceitação dos Termos atualizados.</p>
+            </section>
+
+            <section>
+                <h2>11. Privacidade</h2>
+                <p>Para informações sobre como seus dados pessoais são tratados, consulte nossa <a
+                        href="privacy-policy.html">Política de Privacidade</a>.</p>
+            </section>
+
+            <section>
+                <h2>12. Lei Aplicável</h2>
+                <p>Estes Termos são regidos e interpretados de acordo com as leis da jurisdição em que o Desenvolvedor
+                    opera, sem prejuízo de quaisquer direitos obrigatórios que você possa ter sob as leis locais de
+                    proteção ao consumidor.</p>
+            </section>
+
+            <section>
+                <h2>13. Fale Conosco</h2>
+                <p>Para dúvidas sobre estes Termos de Uso: <a
+                        href="mailto:hexlume.games@gmail.com">hexlume.games@gmail.com</a></p>
+            </section>
+        </div>
+
+        <!-- ============================= FRANÇAIS ============================= -->
+        <div class="lang-content" data-lang="fr">
+            <section>
+                <h2>1. Acceptation des Conditions</h2>
+                <p>En téléchargeant, installant ou utilisant <strong>Lucky Slots</strong> ("l'Application"), tu
+                    reconnais avoir lu, compris et accepté ces Conditions d'Utilisation ("Conditions"). Si tu n'acceptes
+                    pas ces Conditions, merci de ne pas utiliser l'Application.</p>
+                <p><strong>Développeur :</strong> Hexlume Games<br>
+                    <strong>Contact :</strong> <a href="mailto:hexlume.games@gmail.com">hexlume.games@gmail.com</a>
+                </p>
+            </section>
+
+            <div class="highlight-box">
+                <p>⚠️ <strong>Important :</strong> Lucky Slots est une application purement divertissante. Les jetons
+                    dans l'application n'ont aucune valeur monétaire réelle, ne peuvent pas être achetés avec de
+                    l'argent réel et ne peuvent pas être échangés contre de l'argent réel ou des prix. L'application
+                    n'implique aucun jeu d'argent réel et ne fait pas la promotion de paris en argent réel.</p>
+            </div>
+
+            <section>
+                <h2>2. Nature de l'Application</h2>
+                <p>Lucky Slots est un jeu de machine à sous simulée joué avec des jetons virtuels (une application de
+                    type "casino social"). Tous les gains, soldes et récompenses au sein du jeu sont purement virtuels,
+                    existent uniquement pour améliorer l'expérience de jeu, et n'ont aucune valeur monétaire réelle.</p>
+            </section>
+
+            <section>
+                <h2>3. Éligibilité</h2>
+                <ul>
+                    <li>L'Application doit être utilisée conformément aux exigences d'âge minimum applicables dans ta
+                        juridiction.</li>
+                    <li>En utilisant l'Application, tu acceptes de l'utiliser uniquement à des fins légales,
+                        personnelles et non commerciales.</li>
+                    <li>L'Application n'est pas un service de jeux d'argent où de l'argent réel ou des actifs de valeur
+                        sont misés, et ne doit pas être utilisée comme tel.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. Jetons Virtuels et Économie In-App</h2>
+                <ul>
+                    <li>Les jetons ("monnaie virtuelle") au sein de l'application ne peuvent être utilisés que dans le
+                        cadre de l'expérience de jeu et ne peuvent être ni achetés, ni vendus, ni transférés, ni
+                        échangés contre de l'argent réel.</li>
+                    <li>Les jetons peuvent être gagnés en jouant, en réclamant le bonus quotidien, ou en regardant des
+                        publicités de manière optionnelle.</li>
+                    <li>Tu n'as aucun droit de propriété sur ton solde de jetons ; ton solde est stocké uniquement
+                        localement sur ton appareil et peut être définitivement perdu si tu désinstalles l'Application
+                        ou réinitialises ton solde.</li>
+                    <li>Le Développeur se réserve le droit de modifier l'économie des jetons, les montants des
+                        récompenses ou les taux de gain à tout moment sans préavis.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>5. Publicité</h2>
+                <p>L'Application affiche des publicités interstitielles et des publicités récompensées optionnelles via
+                    Google AdMob. Regarder des publicités récompensées est entièrement optionnel et t'accorde des jetons
+                    supplémentaires. Le contenu publicitaire est fourni par des annonceurs tiers ; le Développeur n'est
+                    pas responsable de l'exactitude ou de la pertinence du contenu publicitaire.</p>
+            </section>
+
+            <section>
+                <h2>6. Propriété Intellectuelle</h2>
+                <p>Tous les graphismes, sons, textes, codes et éléments de conception au sein de l'Application
+                    appartiennent à Hexlume Games ou lui sont concédés sous licence, et sont protégés par le droit
+                    d'auteur, les marques déposées et d'autres lois sur la propriété intellectuelle. Tu ne peux pas
+                    copier, modifier, faire de l'ingénierie inverse, distribuer ou créer des œuvres dérivées de
+                    l'Application.</p>
+            </section>
+
+            <section>
+                <h2>7. Comportements Interdits</h2>
+                <p>En utilisant l'Application, tu acceptes de ne pas :</p>
+                <ul>
+                    <li>Entreprendre toute action perturbant ou surchargeant le fonctionnement normal de l'Application
+                        (y compris l'utilisation de bots ou d'outils d'automatisation).</li>
+                    <li>Tenter de contourner les mesures de sécurité de l'Application ou d'accéder à son code source.
+                    </li>
+                    <li>Utiliser l'Application à des fins illégales, ou présenter/commercialiser l'Application comme un
+                        service de jeux d'argent réel.</li>
+                    <li>Te comporter d'une manière qui harcèle, trompe ou nuit à d'autres utilisateurs (y compris via la
+                        fonction de partage).</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>8. Exclusion de Garanties</h2>
+                <p>L'Application est fournie "telle quelle" et "selon disponibilité". Le Développeur ne garantit pas que
+                    l'Application sera ininterrompue, exempte d'erreurs ou sécurisée. Le Développeur ne pourra être tenu
+                    responsable de tout dommage direct ou indirect découlant de l'utilisation de l'Application.
+                    L'Application est purement divertissante ; aucune décision ou attente financière ne doit y être
+                    associée.</p>
+            </section>
+
+            <section>
+                <h2>9. Limitation de Responsabilité</h2>
+                <p>Dans toute la mesure permise par la loi applicable, Hexlume Games ne pourra être tenue responsable de
+                    tout dommage spécial, accessoire, indirect ou consécutif découlant de l'utilisation ou de
+                    l'impossibilité d'utiliser l'Application.</p>
+            </section>
+
+            <section>
+                <h2>10. Modifications et Résiliation</h2>
+                <p>Le Développeur se réserve le droit de modifier, mettre à jour, suspendre ou interrompre l'Application
+                    ou ces Conditions à tout moment sans préavis. Les modifications importantes des Conditions seront
+                    publiées sur cette page. L'utilisation continue de l'Application constitue une acceptation des
+                    Conditions mises à jour.</p>
+            </section>
+
+            <section>
+                <h2>11. Confidentialité</h2>
+                <p>Pour des informations sur la façon dont tes données personnelles sont traitées, consulte notre <a
+                        href="privacy-policy.html">Politique de Confidentialité</a>.</p>
+            </section>
+
+            <section>
+                <h2>12. Droit Applicable</h2>
+                <p>Ces Conditions sont régies et interprétées conformément aux lois de la juridiction dans laquelle le
+                    Développeur opère, sans préjudice des droits impératifs dont tu pourrais bénéficier en vertu des
+                    lois locales de protection des consommateurs.</p>
+            </section>
+
+            <section>
+                <h2>13. Nous Contacter</h2>
+                <p>Pour toute question concernant ces Conditions d'Utilisation : <a
+                        href="mailto:hexlume.games@gmail.com">hexlume.games@gmail.com</a></p>
+            </section>
+        </div>
+
+        <div class="updated" id="updatedDate">Son Güncelleme / Last Updated: 19 August 2026</div>
+
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.lang-content').forEach(function (el) {
+                el.classList.toggle('active', el.getAttribute('data-lang') === lang);
+            });
+            document.querySelectorAll('.lang-btn').forEach(function (btn) {
+                btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+            });
+            document.documentElement.setAttribute('lang', lang);
+            try { localStorage.setItem('ls_terms_lang', lang); } catch (e) { }
+        }
+
+        // Sayfa açılırken, oyunun kendi dil tercihini (varsa) veya cihaz dilini kullan
+        (function () {
+            var supported = ['tr', 'en', 'es', 'de', 'pt-BR', 'fr'];
+            var lang = null;
+            try { lang = localStorage.getItem('ls_lang') || localStorage.getItem('ls_terms_lang'); } catch (e) { }
+            if (!lang) {
+                var nav = (navigator.language || 'tr').toLowerCase();
+                if (nav.startsWith('pt')) lang = 'pt-BR';
+                else {
+                    var base = nav.split('-')[0];
+                    lang = supported.find(function (l) { return l.toLowerCase() === base; }) || 'en';
+                }
+            }
+            if (supported.indexOf(lang) === -1) lang = 'en';
+            switchLang(lang);
+        })();
+    </script>
+
+</body>
+
+</html>
